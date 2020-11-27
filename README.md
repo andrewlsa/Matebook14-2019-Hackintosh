@@ -1,15 +1,13 @@
-Matebook 14 2019 OpenCore EFI 0.6.1  
+Matebook 14 2019 Linux OpenCore EFI 0.6.3  
 
 i5 8265U  
 WD SN720 512G  
 
-已通过Big Sur Beta 6测试。  
-预设Air 9,1，其它型号请自行修改。  
-Showpicker没有打开，需要其它系统请按option或cmd+option+Esc.  
-
+适配Big Sur系统。Catalina需自行替换AirportItlwm.kext  
 
 HiDPI:  
-Big Sur将文件放入：/Library/Displays/Contents/Resources/Overrides  
+将DisplayVendorID-dae和Icons.plist两个文件放入  
+Big Sur: /Library/Displays/Contents/Resources/Overrides  
 Catalina: /System/Library/Displays/Contents/Resources/Overrides  
 已开四个分辨率：1620x1080, 1440x960, 1280x854, 1080x720。其它分辨率请自行修改。  
 已修正唤醒显示不全或闪屏。  
