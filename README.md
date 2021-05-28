@@ -3,7 +3,7 @@ Matebook 14 2019 Linux OpenCore EFI 0.6.3
 i5 8265U  
 WD SN720 512G  
 
-适配Big Sur系统。Catalina需自行替换AirportItlwm.kext  
+Catalina Big Sur通用。  
 
 HiDPI:  
 将DisplayVendorID-dae和Icons.plist两个文件放入  
