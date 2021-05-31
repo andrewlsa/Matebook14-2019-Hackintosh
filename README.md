@@ -1,4 +1,4 @@
-Matebook 14 2019 Linux OpenCore EFI 0.6.3  
+Matebook 14 2019 Linux OpenCore EFI 0.6.9  
 
 i5 8265U  
 WD SN720 512G  
