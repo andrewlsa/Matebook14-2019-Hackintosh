@@ -5,7 +5,7 @@ Intel Wireless AC9560
 WD SN720 512G  
 
 Monterey B6，OC074   
-1. 去除触摸板补丁，感谢🦇<a href="https://github.com/williambj1">@bat.bat</a>![image height="20" width="20"](https://user-images.githubusercontent.com/63772067/133380601-420c0250-675e-4b88-b62c-86f44d6c8b02.jpeg)  
+1. 去除触摸板补丁，感谢🦇<a href="https://github.com/williambj1">@bat.bat</a><img src="https://user-images.githubusercontent.com/63772067/133380601-420c0250-675e-4b88-b62c-86f44d6c8b02.jpeg" height="20" width="20"></img>  
 2. 精简WiFi和蓝牙驱动，只保留AC9560固件。感谢<a href="https://github.com/zxystd">@zxystd</a>的<a href="https://github.com/OpenIntelWireless/itlwm">OpenIntelWireless/itlwm</a>项目。     
 3. 合并ACPI里面的SSDT。  
 4. 去除config中不启用的选项，无用的.efi驱动和主题文件夹。  
