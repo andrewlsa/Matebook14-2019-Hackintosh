@@ -8,7 +8,7 @@ Monterey B6，OC074
 1. 去除触摸板补丁，感谢<a href="https://github.com/williambj1">@bat.bat</a>  
 2. 去除config中不启用的选项，无用的.efi驱动和主题文件夹。  
 3. 合并ACPI里面的SSDT。  
-4. 精简WiFi和蓝牙驱动，只保留AC9560固件。感谢@zxystd     
+4. 精简WiFi和蓝牙驱动，只保留AC9560固件。感谢<a href="https://github.com/zxystd">@zxystd</a>     
 5. 想到再说。  
   
   
