@@ -5,7 +5,8 @@ Intel Wireless AC9560
 WD SN720 512G  
 
 Monterey B6，OC074   
-Thanks to <a href="https://github.com/acidanthera">Acidanthera</a><a href="https://github.com/acidanthera/OpenCorePkg">OpenCore</a>    
+    
+Thanks to <a href="https://github.com/acidanthera">Acidanthera</a>'s <a href="https://github.com/acidanthera/OpenCorePkg">OpenCore</a>    
     
 1. 去除触摸板补丁，感谢🦇<a href="https://github.com/williambj1">@bat.bat</a><img src="https://user-images.githubusercontent.com/63772067/133380601-420c0250-675e-4b88-b62c-86f44d6c8b02.jpeg" height="20" width="20"></img>  
 2. 精简WiFi和蓝牙驱动，只保留AC9560固件。感谢<a href="https://github.com/zxystd">
