@@ -1,4 +1,4 @@
-Matebook 14 2019 Linux OpenCore EFI 0.7.2 
+Matebook 14 2019 Linux OpenCore EFI 
 
 i5 8265U  
 Intel Wireless AC9560   
