@@ -4,7 +4,7 @@ i5 8265U
 Intel Wireless AC9560   
 WD SN720 512G  
 
-Monterey B6，OC074   
+Monterey，OpenCore       
     
 Thanks to    
 Apple's macOS    
