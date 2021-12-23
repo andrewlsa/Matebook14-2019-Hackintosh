@@ -20,7 +20,7 @@ Apple's macOS
   
 HiDPI:  
 将DisplayVendorID-dae和Icons.plist两个文件放入  
-Big Sur: /Library/Displays/Contents/Resources/Overrides  
+Monterey: /Library/Displays/Contents/Resources/Overrides  
 Catalina: /System/Library/Displays/Contents/Resources/Overrides  
 已开四个分辨率：1620x1080, 1440x960, 1280x854, 1080x720。其它分辨率请自行修改。  
   
