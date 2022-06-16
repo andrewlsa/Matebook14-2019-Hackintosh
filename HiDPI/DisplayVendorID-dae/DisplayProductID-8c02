@@ -2,32 +2,31 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>DisplayBacklight</key>
-	<real>575.5</real>
-	<key>DisplayBrightReflection</key>
-	<real>573.1</real>
-	<key>DisplayDarkReflection</key>
-	<real>1.1</real>
+	<key>DisplayVendorID</key>
+        <integer>3502</integer>
+        <key>DisplayProductID</key>
+        <integer>35842</integer>
+	<key>DisplayProductName</key>
+	<string>MateBook14</string>
 	<key>DisplayLeakage</key>
 	<real>0.419</real>
 	<key>DisplayLowestLevel</key>
-	<real>2.0</real>
+	<real>2</real>
 	<key>DisplayLowestMeasured</key>
 	<real>0.4323</real>
-	<key>DisplayProductID</key>
-	<integer>35842</integer>
-	<key>DisplayProductName</key>
-	<string>MateBook 14"</string>
-	<key>DisplayVendorID</key>
-	<integer>3502</integer>
+	<key>DisplayBacklight</key>
+	<real>575.50</real>
+	<key>DisplayDarkReflection</key>
+	<real>1.10</real>
+	<key>DisplayBrightReflection</key>
+	<real>573.10</real>
 	<key>IOGFlags</key>
-	<integer>4</integer>
+	<integer>4</integer>				
 	<key>scale-resolutions</key>
 	<array>
 		<data>AAAMqAAACHAA</data>
-		<data>AAALuAAAB9AA</data>
+		<data>AAAL0AAAB+AA</data>
 		<data>AAALQAAAB4AA</data>
-		<data>AAAKAAAABqwA</data>
 	</array>
 	<key>target-default-ppmm</key>
 	<real>10.0699301</real>

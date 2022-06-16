@@ -142,7 +142,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>CwAAAA==</data>
+				<data>TAAAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>hda-idle-support</key>
@@ -546,7 +546,7 @@
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>SetApfsTrimTimeout</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -604,12 +604,12 @@
 		<array/>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
+			<key>AllowSetDefault</key>
 			<true/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>BlacklistAppleUpdate</key>
-			<true/>
+			<false/>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>ExposeSensitiveData</key>
@@ -664,7 +664,6 @@
 		<dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<array>
-				<string>UIScale</string>
 				<string>DefaultBackgroundColor</string>
 			</array>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
@@ -765,38 +764,6 @@
 			<key>MinVersion</key>
 			<integer>0</integer>
 		</dict>
-		<key>AppleInput</key>
-		<dict>
-			<key>AppleEvent</key>
-			<string>Builtin</string>
-			<key>GraphicsInputMirroring</key>
-			<true/>
-			<key>KeyInitialDelay</key>
-			<integer>50</integer>
-			<key>KeySubsequentDelay</key>
-			<integer>5</integer>
-			<key>PointerSpeedDiv</key>
-			<integer>1</integer>
-			<key>PointerSpeedMul</key>
-			<integer>1</integer>
-		</dict>
-		<key>Audio</key>
-		<dict>
-			<key>AudioCodec</key>
-			<integer>0</integer>
-			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
-			<key>AudioOut</key>
-			<integer>0</integer>
-			<key>MinimumVolume</key>
-			<integer>20</integer>
-			<key>PlayChime</key>
-			<string>Auto</string>
-			<key>SetupDelay</key>
-			<integer>0</integer>
-			<key>VolumeAmplifier</key>
-			<integer>0</integer>
-		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
 		<key>Drivers</key>
@@ -820,6 +787,16 @@
 				<true/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>ResetNvramEntry.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
