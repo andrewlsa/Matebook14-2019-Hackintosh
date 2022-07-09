@@ -2,9 +2,8 @@ Matebook 14 2019 Linux OpenCore EFI
 
 i5 8265U  
 Intel Wireless AC9560   
-WD SN720 512G  
 
-macOS 13.0 Beta Ventura，OpenCore       
+macOS 13.0 Beta Ventura Beta 3          
     
 Thanks to    
 Apple's macOS    
@@ -15,9 +14,8 @@ Apple's macOS
 @zxystd</a><img src="https://user-images.githubusercontent.com/63772067/133381457-70b04cf0-2c89-47c2-a1ce-6ddbd315d1c8.png" height="20" width="20"></img>的<a href="https://github.com/OpenIntelWireless/itlwm">OpenIntelWireless/itlwm</a>项目。     
 3. 合并ACPI里面的SSDT。  
 4. 去除config中不启用的选项，无用的.efi驱动和主题文件夹。  
-5. 想到再说。  
-  
-  
+5. 在Apple未修整好蓝牙之前，config暂时关了SIP（csr值E7030000）以避免hash mismatch。    
+    
 HiDPI:  
 将DisplayVendorID-dae和Icons.plist两个文件放入以下路径（macOS 11后需要新建）  
 Big Sur ～ Ventura: /Library/Displays/Contents/Resources/Overrides  
