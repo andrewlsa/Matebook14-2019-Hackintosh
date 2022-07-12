@@ -14,7 +14,7 @@ Apple's macOS
 @zxystd</a><img src="https://user-images.githubusercontent.com/63772067/133381457-70b04cf0-2c89-47c2-a1ce-6ddbd315d1c8.png" height="20" width="20"></img>的<a href="https://github.com/OpenIntelWireless/itlwm">OpenIntelWireless/itlwm</a>项目。     
 3. 合并ACPI里面的SSDT。  
 4. 去除config中不启用的选项，无用的.efi驱动和主题文件夹。  
-5. 在Apple未修整好蓝牙之前，config暂时关了SIP（csr值E7030000）以避免hash mismatch。    
+5.     
     
 HiDPI:  
 将DisplayVendorID-dae和Icons.plist两个文件放入以下路径（macOS 11后需要新建）  
