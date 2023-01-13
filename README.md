@@ -3,8 +3,8 @@ Matebook 14 2019 Linux OpenCore EFI
 i5 8265U  
 Intel Wireless AC9560   
 
-macOS 13.0 Beta Ventura Beta 3          
-    
+macOS Ventura 13.2B2    
+        
 Thanks to    
 Apple's macOS    
 <a href="https://github.com/acidanthera">Acidanthera</a>'s <a href="https://github.com/acidanthera/OpenCorePkg">OpenCore</a>    
