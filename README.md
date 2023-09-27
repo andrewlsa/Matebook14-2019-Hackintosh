@@ -3,7 +3,7 @@ Matebook 14 2019 Linux OpenCore EFI
 i5 8265U  
 Intel Wireless AC9560   
 
-macOS Sonoma 14.0 Beta (23A5286g)    
+macOS Sonoma 14.0 (23A344)    
         
 Thanks to    
 Apple's macOS    
@@ -18,7 +18,7 @@ Apple's macOS
     
 HiDPI:  
 将DisplayVendorID-dae和Icons.plist两个文件放入以下路径（macOS 11后需要新建）  
-Big Sur ～ Ventura: /Library/Displays/Contents/Resources/Overrides  
+Big Sur ～ Sonoma: /Library/Displays/Contents/Resources/Overrides  
 Catalina: /System/Library/Displays/Contents/Resources/Overrides  
 已开四个分辨率：1620x1080, 1512x1008, 1440x960, 1080x720。其它分辨率请自行修改。  
   
