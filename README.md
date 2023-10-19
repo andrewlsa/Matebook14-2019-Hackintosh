@@ -3,7 +3,7 @@ Matebook 14 2019 Linux OpenCore EFI
 i5 8265U  
 Intel Wireless AC9560   
 
-macOS Sonoma 14.0 (23A344)    
+**macOS Sonoma 14.1 (23B73)**    
         
 Thanks to    
 Apple's macOS    
